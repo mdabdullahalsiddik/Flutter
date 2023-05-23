@@ -13,12 +13,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
+      drawer: Drawer(),
       appBar: AppBar(
-        leading: Icon(
-          Icons.arrow_circle_left_outlined,
-          size: 30.0,
-          color: Colors.black,
-        ),
         title: Text(
           "Flutter App",
           style: TextStyle(
